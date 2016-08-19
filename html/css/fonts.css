@@ -1,0 +1,42 @@
+@font-face {
+  font-family: SFUIDisplayMedium;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/SFUIDisplayMedium/SFUIDisplayMedium.eot?#iefix) format("embedded-opentype"), url(../fonts/SFUIDisplayMedium/SFUIDisplayMedium.woff2) format("woff2"), url(../fonts/SFUIDisplayMedium/SFUIDisplayMedium.woff) format("woff"), url(../fonts/SFUIDisplayMedium/SFUIDisplayMedium.ttf) format("truetype"), url(../fonts/SFUIDisplayMedium/SFUIDisplayMedium.svg#SFUIDisplayMedium) format("svg");
+}
+@font-face {
+  font-family: SFUIDisplayRegular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/SFUIDisplayRegular/SFUIDisplayRegular.eot?#iefix) format("embedded-opentype"), url(../fonts/SFUIDisplayRegular/SFUIDisplayRegular.woff2) format("woff2"), url(../fonts/SFUIDisplayRegular/SFUIDisplayRegular.woff) format("woff"), url(../fonts/SFUIDisplayRegular/SFUIDisplayRegular.ttf) format("truetype"), url(../fonts/SFUIDisplayRegular/SFUIDisplayRegular.svg#SFUIDisplayRegular) format("svg");
+}
+@font-face {
+  font-family: SFUITextBold;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/SFUITextBold/SFUITextBold.eot?#iefix) format("embedded-opentype"), url(../fonts/SFUITextBold/SFUITextBold.woff2) format("woff2"), url(../fonts/SFUITextBold/SFUITextBold.woff) format("woff"), url(../fonts/SFUITextBold/SFUITextBold.ttf) format("truetype"), url(../fonts/SFUITextBold/SFUITextBold.svg#SFUITextBold) format("svg");
+}
+@font-face {
+  font-family: SFUITextHeavy;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/SFUITextHeavy/SFUITextHeavy.eot?#iefix) format("embedded-opentype"), url(../fonts/SFUITextHeavy/SFUITextHeavy.woff2) format("woff2"), url(../fonts/SFUITextHeavy/SFUITextHeavy.woff) format("woff"), url(../fonts/SFUITextHeavy/SFUITextHeavy.ttf) format("truetype"), url(../fonts/SFUITextHeavy/SFUITextHeavy.svg#SFUITextHeavy) format("svg");
+}
+@font-face {
+  font-family: SFUITextMedium;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/SFUITextMedium/SFUITextMedium.eot?#iefix) format("embedded-opentype"), url(../fonts/SFUITextMedium/SFUITextMedium.woff2) format("woff2"), url(../fonts/SFUITextMedium/SFUITextMedium.woff) format("woff"), url(../fonts/SFUITextMedium/SFUITextMedium.ttf) format("truetype"), url(../fonts/SFUITextMedium/SFUITextMedium.svg#SFUITextMedium) format("svg");
+}
+@font-face {
+  font-family: SFUITextRegular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/SFUITextRegular/SFUITextRegular.eot?#iefix) format("embedded-opentype"), url(../fonts/SFUITextRegular/SFUITextRegular.woff2) format("woff2"), url(../fonts/SFUITextRegular/SFUITextRegular.woff) format("woff"), url(../fonts/SFUITextRegular/SFUITextRegular.ttf) format("truetype"), url(../fonts/SFUITextRegular/SFUITextRegular.svg#SFUITextRegular) format("svg");
+}
+@font-face {
+  font-family: MyriadProBold;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/MyriadProBold/MyriadPro-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/MyriadProBold/MyriadPro-Bold.woff2) format("woff2"), url(../fonts/MyriadProBold/MyriadPro-Bold.woff) format("woff"), url(../fonts/MyriadProBold/MyriadPro-Bold.ttf) format("truetype"), url(../fonts/MyriadProBold/MyriadPro-Bold.svg#MyriadPro) format("svg");
+}

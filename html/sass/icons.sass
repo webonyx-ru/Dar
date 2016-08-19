@@ -1,0 +1,216 @@
+@import "icons/*.png"
+
+.icon-cart
+	+s(icon-cart)
+	display: inline-block
+	vertical-align: middle
+
+.icon-findshop
+	+s(icon-findshop)
+	display: inline-block
+	vertical-align: middle
+
+.icon-secure
+	+s(icon-secure)
+	display: inline-block
+	vertical-align: middle
+
+.icon-soc-shops
+	+s(icon-soc-shops)
+	display: inline-block
+	vertical-align: middle
+
+.icon-search
+	background: #fe3434
+	border-radius: 50%
+	width: 32px
+	height: 32px
+	+trans
+
+	&:after
+		+s(icon-search)
+		display: inline-block
+		vertical-align: middle
+		content: ''
+		position: absolute
+		+transform(translate3d(-50%, -50%, 0))
+		top: 50%
+		left: 50%
+
+	&:hover
+		width: 40px
+		height: 40px
+
+.icon-round-plus
+	width: 16px
+	height: 16px
+	border-radius: 50px
+	display: inline-block
+	vertical-align: middle
+	position: relative
+	top: -2px
+	position: relative
+	border: 1px solid #000
+
+	&:after, &:before
+		display: block
+		content: ''
+		position: absolute
+		top: 15%
+		height: 70%
+		width: 2px
+		background: #000
+		left: 50%
+		margin-left: -1px
+
+	&:after
+		width: 70%
+		left: 15%
+		margin-left: auto
+		height: 2px
+		margin-top: -1px
+		top: 50%
+
+.icon-heart
+	display: inline-block
+	vertical-align: middle
+	position: relative
+	top: -1px
+	+s(icon-heart)
+	margin-right: 5px
+
+.icon-star
+	+s(icon-star)
+	display: inline-block
+	vertical-align: baseline
+
+	&.grey
+		+s(icon-star-grey)
+
+	&.big
+		+s(icon-star-big)
+
+		&.grey
+			+s(icon-star-big-grey)
+
+.icon-more-btn
+	+s(icon-more-btn)
+	vertical-align: middle
+	margin-left: 10px
+	position: relative
+	top: -1px
+
+	&.right-direction
+		+transform(rotate(-90deg))
+
+.icon-soc-vk
+	+s(icon-soc-vk)
+	vertical-align: middle
+
+.icon-soc-fb
+	+s(icon-soc-fb)
+	vertical-align: middle
+
+.icon-soc-insta
+	+s(icon-soc-insta)
+	vertical-align: middle
+
+.icon-cart-black
+	+s(icon-cart-black)
+	vertical-align: middle
+
+.icon-search-grey
+	+s(icon-search-grey)
+	vertical-align: middle
+
+.icon-tw
+	vertical-align: middle
+	+s(icon-tw)
+	position: relative
+	top: -1px
+	margin-right: 3px
+
+.icon-fb
+	vertical-align: middle
+	+s(icon-fb)
+	position: relative
+	top: -1px
+	margin-right: 3px
+
+.icon-heart-white
+	+s(icon-heart-white)
+	vertical-align: middle
+
+.icon-cog
+	+s(icon-cog)
+	vertical-align: middle
+	position: relative
+	top: -1px
+	margin-left: 5px
+
+
+/*sprite with stars*/
+#reviewStars-input input:checked ~ label, #reviewStars-input label, #reviewStars-input label:hover, #reviewStars-input label:hover ~ label
+	+s(icon-star)
+
+#reviewStars-input
+	/*fix floating problems*/
+	overflow: hidden
+	*zoom: 1
+	/*end of fix floating problems*/
+
+	position: relative
+	float: left
+
+#reviewStars-input input
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0)
+	opacity: 0
+
+	width: 43px
+	height: 40px
+
+	position: absolute
+	top: 0
+	z-index: 0
+
+#reviewStars-input input:checked ~ label
+	+s(icon-star)
+
+#reviewStars-input label
+	+s(icon-star-grey)
+	float: right
+	cursor: pointer
+	margin-right: 10px
+
+	position: relative
+	z-index: 1
+
+.icon-visa
+	+s(icon-visa)
+	vertical-align: middle
+
+.icon-paypal
+	+s(icon-paypal)
+	vertical-align: middle
+
+#reviewStars-input label:hover, #reviewStars-input label:hover ~ label
+	+s(icon-star)
+
+#reviewStars-input #star-0
+	left: 0px
+	display: none
+#reviewStars-input #star-1
+	left: 53px
+	display: none
+#reviewStars-input #star-2
+	left: 106px
+	display: none
+#reviewStars-input #star-3
+	left: 159px
+	display: none
+#reviewStars-input #star-4
+	left: 212px
+	display: none
+#reviewStars-input #star-5
+	left: 265px
+	display: none
