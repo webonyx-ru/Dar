@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'trans'.
-        on line 23 of C:/Users/Yuriy Bogatyrenko/Dropbox/Projects/dar/html/sass/main.sass, in `trans'
-        from line 23 of C:/Users/Yuriy Bogatyrenko/Dropbox/Projects/dar/html/sass/main.sass
+        on line 23 of D:/GitProjects/Dar/html/sass/main.sass, in `trans'
+        from line 23 of D:/GitProjects/Dar/html/sass/main.sass
 
 18: 	height: 138px
 19: 	position: absolute
@@ -16,8 +16,8 @@ Error: Undefined mixin 'trans'.
 28: .top-line__menu
 
 Backtrace:
-C:/Users/Yuriy Bogatyrenko/Dropbox/Projects/dar/html/sass/main.sass:23:in `trans'
-C:/Users/Yuriy Bogatyrenko/Dropbox/Projects/dar/html/sass/main.sass:23
+D:/GitProjects/Dar/html/sass/main.sass:23:in `trans'
+D:/GitProjects/Dar/html/sass/main.sass:23
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/stack.rb:115:in `with_frame'
@@ -73,4 +73,4 @@ C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'trans'.\A         on line 23 of C:/Users/Yuriy Bogatyrenko/Dropbox/Projects/dar/html/sass/main.sass, in `trans'\A         from line 23 of C:/Users/Yuriy Bogatyrenko/Dropbox/Projects/dar/html/sass/main.sass\A \A 18: 	height: 138px\A 19: 	position: absolute\A 20: 	left: 0\A 21: 	top: 0\A 22: 	box-shadow: 0 0 5px rgba(0,0,0,0.2)\A 23: 	+trans\A 24: \A 25: 	&:hover\A 26: 		box-shadow: 0 0 5px rgba(0,0,0,0.5)\A 27: \A 28: .top-line__menu"; }
+  content: "Error: Undefined mixin 'trans'.\A         on line 23 of D:/GitProjects/Dar/html/sass/main.sass, in `trans'\A         from line 23 of D:/GitProjects/Dar/html/sass/main.sass\A \A 18: 	height: 138px\A 19: 	position: absolute\A 20: 	left: 0\A 21: 	top: 0\A 22: 	box-shadow: 0 0 5px rgba(0,0,0,0.2)\A 23: 	+trans\A 24: \A 25: 	&:hover\A 26: 		box-shadow: 0 0 5px rgba(0,0,0,0.5)\A 27: \A 28: .top-line__menu"; }

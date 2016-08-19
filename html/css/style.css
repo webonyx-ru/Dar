@@ -402,7 +402,7 @@ select.selectpicker {
   font-family: SFUITextHeavy;
 }
 
-.ffm, input[type="text"], input[type="password"], input[type="email"], input[type="number"], .cart__item-textarea, .product-grid__rating, .shop-grid__rating, .breadcrumbs__item, .category-grid__title-link, .category-grid__info, .all-products-grid__title, .small-grey-button, .product-review__content, .tweet-share, .fb-share, .coupon-submit-button, .medium {
+.ffm, input[type="text"], input[type="password"], input[type="email"], input[type="number"], .cart__item-textarea, .product-grid__rating, .shop-grid__rating, .breadcrumbs__item, .category-grid__title-link, .category-grid__info, .all-products-grid__title, .small-grey-button, .product-review__content, .tweet-share, .fb-share, .coupon-submit-button, input.field-input, .medium {
   font-family: SFUIDisplayMedium;
 }
 
@@ -3052,6 +3052,30 @@ input.coupon-input {
 input[type="radio"]:checked + .radio-detector:after {
   width: 10px;
   height: 10px;
+}
+
+input.field-input {
+  border: 2px solid #cfcfcf;
+  border-radius: 0;
+  line-height: 45px;
+  padding: 0 20px;
+  color: #333333;
+  background: #fff;
+  height: 45px;
+  font-size: 15px;
+}
+
+.order-page {
+  background: #f5f5f7;
+  padding: 50px 0;
+}
+.order-page__inner {
+  padding-left: 120px;
+}
+.order-page__form {
+  background: #fff;
+  border: 1px solid #cfcfcf;
+  padding: 15px;
 }
 
 @media screen and (max-width: 1170px) {
