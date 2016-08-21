@@ -3078,6 +3078,14 @@ input.field-input {
   padding: 15px;
 }
 
+.order-page__seciton {
+  border: 1px solid #cccccc;
+  padding: 20px;
+}
+.order-page__seciton.no-bb {
+  border-bottom: none;
+}
+
 @media screen and (max-width: 1170px) {
   .product-grid, .shop-grid {
     padding-left: 15px;
