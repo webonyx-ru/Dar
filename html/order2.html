@@ -32,26 +32,60 @@
 				<div class="order-page__inner">
 					<h1 class="block-title">Введите детали банковской карты</h1>
 					<form action="#" class="order-page__form">
-						<div class="field-group mb20">
-							<p class="field-caption ffm fz15 mb10">Номер карты</p>
-							<label class="field-wrapper db">
-								<input type="text" class="field-input" placeholder="XXXX XXXX XXXX XXXX">
-								<i class="icon-field-lock"></i>
-							</label>
+						<div class="row">
+							<div class="col-sm-8">
+								<div class="field-group mb20">
+									<p class="field-caption ffm fz15 mb10">Номер карты</p>
+									<label class="field-wrapper db posr">
+										<input type="text" class="field-input" placeholder="XXXX XXXX XXXX XXXX">
+										<i class="icon-field-lock"></i>
+									</label>
+								</div>
+							</div>
+							<div class="col-sm-2">
+								<p class="mb10 field-caption fz15">Срок действия</p>
+								<div class="mb10">
+									<select class="selectpicker db">
+										<option value="">1</option>
+										<option value="">2</option>
+										<option value="">3</option>
+										<option value="">4</option>
+										<option value="">5</option>
+										<option value="">6</option>
+										<option value="">7</option>
+										<option value="">8</option>
+										<option value="">9</option>
+										<option value="">10</option>
+										<option value="">11</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-sm-2">
+								<p class="mb10 field-caption fz15">&nbsp;</p>
+								<div class="mb10">
+									<select class="selectpicker db">
+										<option value="">2011</option>
+										<option value="">2012</option>
+										<option value="">2013</option>
+									</select>
+								</div>
+							</div>
 						</div>
-						<div class="field-group mb20">
-							<p class="field-caption ffm fz15 mb10">Полное имя</p>
-							<div class="field-wrapper">
-								<select class="selectpicker db">
-									<option value="">Казахстан</option>
-									<option value="">Россия</option>
-									<option value="">Казахстан</option>
-									<option value="">Россия</option>
-									<option value="">Казахстан</option>
-									<option value="">Россия</option>
-									<option value="">Казахстан</option>
-									<option value="">Россия</option>
-								</select>
+						<div class="field-group mb20 row">
+							<div class="col-xs-8">
+								<p class="field-caption ffm fz15 mb10">Код безопасности</p>
+								<label class="field-wrapper posr db">
+									<input type="text" class="field-input">
+									<i class="icon-field-lock"></i>
+								</label>
+							</div>
+						</div>
+						<div class="field-group mb20 row">
+							<div class="col-xs-8">
+								<p class="field-caption ffm fz15 mb10">Имя на карте</p>
+								<label class="field-wrapper posr db">
+									<input type="text" class="field-input">
+								</label>
 							</div>
 						</div>
 						<div class="row clearfix">
