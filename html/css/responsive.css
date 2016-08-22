@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'trans'.
-        on line 57 of C:/Users/Yuriy Bogatyrenko/Dropbox/Projects/dar/html/sass/responsive.sass, in `trans'
-        from line 57 of C:/Users/Yuriy Bogatyrenko/Dropbox/Projects/dar/html/sass/responsive.sass
+        on line 66 of D:/PhpStormProjects/Dar/html/sass/responsive.sass, in `trans'
+        from line 66 of D:/PhpStormProjects/Dar/html/sass/responsive.sass
 
-52: 		margin-right: -15px
-53: 
-54: 	.product__tab
-55: 		border: 1px solid #000
-56: 		border-bottom: none
-57: 		+trans
-58: 
-59: 		&.active
-60: 			background: #e5e3e3
-61: 			&:after
-62: 				display: none
+61: 		margin-right: -15px
+62: 
+63: 	.product__tab
+64: 		border: 1px solid #000
+65: 		border-bottom: none
+66: 		+trans
+67: 
+68: 		&.active
+69: 			background: #e5e3e3
+70: 			&:after
+71: 				display: none
 
 Backtrace:
-C:/Users/Yuriy Bogatyrenko/Dropbox/Projects/dar/html/sass/responsive.sass:57:in `trans'
-C:/Users/Yuriy Bogatyrenko/Dropbox/Projects/dar/html/sass/responsive.sass:57
+D:/PhpStormProjects/Dar/html/sass/responsive.sass:66:in `trans'
+D:/PhpStormProjects/Dar/html/sass/responsive.sass:66
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/stack.rb:115:in `with_frame'
@@ -87,4 +87,4 @@ C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'trans'.\A         on line 57 of C:/Users/Yuriy Bogatyrenko/Dropbox/Projects/dar/html/sass/responsive.sass, in `trans'\A         from line 57 of C:/Users/Yuriy Bogatyrenko/Dropbox/Projects/dar/html/sass/responsive.sass\A \A 52: 		margin-right: -15px\A 53: \A 54: 	.product__tab\A 55: 		border: 1px solid #000\A 56: 		border-bottom: none\A 57: 		+trans\A 58: \A 59: 		&.active\A 60: 			background: #e5e3e3\A 61: 			&:after\A 62: 				display: none"; }
+  content: "Error: Undefined mixin 'trans'.\A         on line 66 of D:/PhpStormProjects/Dar/html/sass/responsive.sass, in `trans'\A         from line 66 of D:/PhpStormProjects/Dar/html/sass/responsive.sass\A \A 61: 		margin-right: -15px\A 62: \A 63: 	.product__tab\A 64: 		border: 1px solid #000\A 65: 		border-bottom: none\A 66: 		+trans\A 67: \A 68: 		&.active\A 69: 			background: #e5e3e3\A 70: 			&:after\A 71: 				display: none"; }
