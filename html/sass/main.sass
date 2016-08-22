@@ -11,6 +11,10 @@ body, input, button, textarea
 	color: #fff
 	position: relative
 
+	&.white
+		background: #fff
+		border-bottom: 1px solid #cfcfcf
+
 .logo
 	background: url(../images/logo.jpg) no-repeat center center #fff
 	display: block
@@ -1696,6 +1700,7 @@ input[type="radio"]
 			height: 10px
 
 input.field-input
+	font-family: SFUITextHeavy
 	border: 2px solid #cfcfcf
 	border-radius: 0
 	line-height: 45px
@@ -1703,7 +1708,6 @@ input.field-input
 	color: #333333
 	background: #fff
 	height: 45px
-	@extend .ffm
 	font-size: 15px
 
 .order-page
@@ -1717,3 +1721,78 @@ input.field-input
 		background: #fff
 		border: 1px solid #cfcfcf
 		padding: 15px
+
+.top-line__order-cond
+	padding-left: 120px
+	text-align: center
+	position: relative
+	
+	&-listing
+		position: relative
+		overflow: hidden
+		display: inline-block
+		vertical-align: middle
+		margin-top: 10px
+
+		&:before
+			width: 100%
+			top: 10px
+			left: 0
+			height: 3px
+			background: #e7e6e6
+			content: ''
+			display: block
+			position: absolute
+
+	&-item
+		display: inline-block
+		padding: 25px 60px 10px
+		color: #D5C1C1
+		position: relative
+		overflow: hidden
+
+		&.active
+			color: #333
+
+			.top-line__order-cond-item__detector
+				position: absolute
+				display: block
+				content: ''
+				width: 10px
+				height: 10px
+				top: 7px
+				left: 50%
+				margin-left: -5px
+				background: #66dd59
+				border-radius: 50%
+				z-index: 1
+
+		&:after
+			display: block
+			position: absolute
+			width: 20px
+			height: 20px
+			border-radius: 50%
+			background: #e7e6e6
+			content: ''
+			top: 2px
+			left: 50%
+			margin-left: -10px
+
+		&:first-child, &:last-child
+
+			&:before
+				display: block
+				content: ''
+				position: absolute
+				background: #fff
+				height: 5px
+				top: 9px
+				right: 50%
+				width: 500px
+
+		&:last-child
+
+			&:before
+				left: 50%
+				right: auto
