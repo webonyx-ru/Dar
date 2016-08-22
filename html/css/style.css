@@ -3087,6 +3087,7 @@ input.field-input {
   padding: 15px;
 }
 
+<<<<<<< HEAD
 .top-line__order-cond {
   padding-left: 120px;
   text-align: center;
@@ -3157,6 +3158,18 @@ input.field-input {
 .top-line__order-cond-item:last-child:before {
   left: 50%;
   right: auto;
+=======
+.order-page__seciton {
+  border: 1px solid #cccccc;
+  padding: 20px;
+}
+.order-page__seciton.no-bb {
+  border-bottom: none;
+}
+
+.order-text .asdasdasd.asdasdasd {
+  padding-bottom: 50px;
+>>>>>>> refs/remotes/origin/master
 }
 
 @media screen and (max-width: 1170px) {
