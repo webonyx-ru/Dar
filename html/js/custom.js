@@ -32,4 +32,14 @@ $(document).ready(function(){
 		$(this).siblings().removeClass('active').end().addClass('active')
 		e.preventDefault();
 	});
+
+	$(document).on('click', '.catalog-categories__title', function(e){
+		if($(this).hasClass('active')) {
+			$(this).removeClass('active');
+			$(this).siblings('.catalog-categories__listing').slideUp(200);
+		} else {
+			$(this).addClass('active');
+			$(this).siblings('.catalog-categories__listing').slideDown(200);
+		}
+	})
 });
