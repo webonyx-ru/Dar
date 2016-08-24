@@ -8,6 +8,15 @@
     left: auto
     right: 20px
 
+@media screen and (max-width: 1199px)
+  .product__shop-other-products.favorited-other-products__right-text
+    padding-left: 30px
+    padding-right: 30px
+    text-align: center
+
+  .store-page__right-info
+    text-align: center
+
 @media screen and (max-width: 1170px)
   .product-grid, .shop-grid
     padding-left: 15px
@@ -25,6 +34,26 @@
 
   .favorited__listing
     margin-right: 0
+
+  .top-line
+    //margin-bottom: 40px
+
+  .search-form
+    width: 100%
+    box-sizing: border-box
+
+  input.search-input
+    display: block
+    width: 100%
+    padding-right: 80px
+
+  .search-form
+    position: relative
+    .red-button
+      position: absolute
+      top: 50%
+      margin-top: -16px
+      right: 3px
 
 @media screen and (max-width: 991px)
   .product__shop-header
@@ -53,21 +82,8 @@
     border: 1px solid #cfcfcf
     border-top: none
 
-  .sub-top-line
+  .sub-top-line__links
     display: none
-
-  input.search-input
-    display: block
-    width: 100%
-    padding-right: 80px
-
-  .search-form
-    position: relative
-    .red-button
-      position: absolute
-      top: 50%
-      margin-top: -16px
-      right: 3px
 
   .top-line__menu-listing
     position: fixed
@@ -91,9 +107,7 @@
       padding-right: 0
 
       &.has-search-form
-        margin-top: 10px
-        padding-left: 18px
-        padding-right: 18px
+        padding: 20px 18px
 
   .top-line__menu-item
     padding: 5px 0
@@ -126,8 +140,15 @@
   .favorited-other-products__right-text
     text-align: center
 
+  .sub-top-line__inner
+    padding-left: 80px
+
+  .main-page-slider__yellow-plate
+    max-width: 90%
+    right: 5%
+
   .logo
-    height: 90px
+    height: 94px
     width: 60px
     -webkit-background-size: contain
     background-size: contain

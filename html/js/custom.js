@@ -33,6 +33,13 @@ $(document).ready(function(){
 		e.preventDefault();
 	});
 
+	$(window).resize(function(){
+		if(!$('.catalog-categories__title').is(':visible')) {
+			$('.catalog-categories__listing').removeAttr('style');
+			$('.catalog-categories__title').removeClass('active');
+		}
+	})
+
 	$(document).on('click', '.catalog-categories__title', function(e){
 		if($(this).hasClass('active')) {
 			$(this).removeClass('active');
@@ -53,4 +60,9 @@ $(document).ready(function(){
 		$('.overlay').fadeIn(300);
 		pop.fadeIn(300);
 	})
+
+	$(document).on('click', '.top-line__menu-icon', function(e){
+		$(this).toggleClass('active');
+		$('.top-line__menu-listing').toggleClass('active');
+	});
 });

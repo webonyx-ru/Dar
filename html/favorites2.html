@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="main-wrapper">
+    <header class="main-header-wrapper">
+        <div class="top-line">
+            <div class="container">
+                <div class="top-line__inner posr">
+                    <a href="#" class="logo"></a>
+                    <div class="top-line__menu">
+                        <ul class="top-line__menu-listing list-inline">
+                            <li class="top-line__menu-item logo-text">HALVA</li>
+                            <li class="top-line__menu-item"><a class="top-line__menu-link" href="#">Музыка</a></li>
+                            <li class="top-line__menu-item"><a class="top-line__menu-link" href="#">Платежи</a></li>
+                            <li class="top-line__menu-item"><a class="top-line__menu-link" href="#">Переводы</a></li>
+                            <li class="top-line__menu-item"><a class="top-line__menu-link" href="#">DarBazar</a></li>
+                            <li class="top-line__menu-item"><a class="top-line__menu-link" href="#">Займы</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-top-line">
+            <div class="container">
+                <div class="sub-top-line__inner clearfix">
+                    <form action="#" class="search-form left">
+                        <input type="text" class="search-input" placeholder="Вы найдете это здесь">
+                        <button class="red-button">Поиск</button>
+                    </form>
+                    <div class="dib sub-top-line__links fz15 right">
+                        <a href="tel:+996 555 539796" class="header-phone purple-link bold dib">+996 555 539796</a>
+                        <a href="#" class="purple-link bold dib header-open-shop">Открыть магазин</a>
+                        <a href="#" class="purple-link header-subscribe dib">Подписка</a>
+                        <a href="#" class="purple-link header-registration dib">Регистрация</a>
+                        <a href="#" class="empty-button dib">Войти</a>
+                        <a href="#" class="purple-link dib"><i class="icon-cart"></i> Корзина</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="catalog-categories">
+            <div class="container">
+                <ul class="catalog-categories__listing text-right">
+                    <li class="catalog-categories__item"><a class="catalog-categories__link" href="#">Одежда и аксессуары</a></li>
+                    <li class="catalog-categories__item"><a class="catalog-categories__link" href="#">Ювелирные изделия</a></li>
+                    <li class="catalog-categories__item"><a class="catalog-categories__link" href="#">Самодельные изделия</a></li>
+                    <li class="catalog-categories__item"><a class="catalog-categories__link" href="#">Свадебные принадлежности</a></li>
+                    <li class="catalog-categories__item"><a class="catalog-categories__link" href="#">Развлечения, для дома</a></li>
+                    <li class="catalog-categories__item"><a class="catalog-categories__link" href="#">Для детей</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- BEGIN store-page -->
+    <div class="store-page">
+        <div class="product__shop-header favorites-edit">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="col-md-12 text-left">
+                        <div class="dib">
+                            <img class="product__shop-logo image-round" alt="" src="http://placehold.it/80x80" />
+                        </div>
+                        <div class="dib text-left">
+                            <p class="product__shop-title ffh fz15 mb5">JBL Official KZ</p>
+                            <div class="product__shop-followers clearfix">
+                                <div class="product__shop-followers-item grey-text left">6 followers</div>
+                                <div class="product__shop-followers-item grey-text left">0 following</div>
+                            </div>
+                            <div class="product__shop-subscribe-wrapper clearfix">
+                                <div class="product__shop-subscribe-item left">
+                                    <a href="#"><i class="icon-round-plus"></i> Подписаться</a>
+                                </div>
+                                <div class="product__shop-subscribe-item left">
+                                    <a href="#">Написать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BEGIN store-page__product-container -->
+        <div class="store-page__product-container">
+            <div class="container">
+                <!-- BEGIN sides-container -->
+                <div class="sides-container clearfix mb30">
+                    <div class="left-side col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                        <div class="left-side__wrapper row">
+                            <div class="favorites-menu__wrapper">
+                                <div class="block-title">Избранное</div>
+                                <ul class="favorites-menu favorites-menu-section no-pt no-psides fz13">
+                                    <li class="favorites-menu__item"><a href="#" class="favorites-menu__link">Товары</a></li>
+                                    <li class="favorites-menu__item"><a href="#" class="favorites-menu__link">Магазины <i class="icon-cog"></i> <span class="right grey-text left-menu__item-count">22</span></a></li>
+                                </ul>
+                                <form action="#" class="favorites-menu__show-avail favorites-menu-section">
+                                    <label><input type="checkbox" class="custom-hidden"><i class="checkbox-detector dib"></i> Show only available items</label>
+                                </form>
+                                <div class="favorites-menu-section line-height- favorites-be-social">
+                                    <span class="dib mr10">Be social</span> <a href="#" class="tweet-share small mr5"><i class="icon-tw"></i> Tweet</a> <a href="#" class="fb-share small"><i class="icon-fb"></i> Like</a>
+                                </div>
+                                <div class="favorites-menu-section line-height-">
+                                    <form action="#" class="left-side-searchform">
+                                        <p><input placeholder="Поиск" type="text" class="left-side-searchinput"><button class="icon-search-grey nulled-button left-side-search-button"></button></p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 right-side">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="row favorited__listing mb20">
+                                    <div class="col-xs-12 favorited__item mb15 active favorited__favorites-shop-item">
+                                        <a href="#" class="icon-cross__delete-item"></a>
+                                        <div class="store-page__right-info col-md-12 col-lg-3 no-border">
+                                            <div class="store-page__small-logo__wrapper fz0 lh0 dib mr5">
+                                                <img class="store-page__small-logo image-round" alt="" src="http://placehold.it/54x54">
+                                            </div>
+                                            <div class="store-page__shop-owner-wrapper dib text-left">
+                                                <div class="store-page__shop-owner fz15 ffh">JBL Official KZ</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-lg-9 product__shop-other-products no-pl text-right favorited-other-products__right-text">
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <a href="#" class="empty-button grey big">Смотреть избранное <span class="product__other-products-number">31</span> <i class="icon-more-btn right-direction"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row favorited__listing mb20">
+                                    <div class="col-xs-12 favorited__item mb15 active favorited__favorites-shop-item">
+                                        <a href="#" class="icon-cross__delete-item"></a>
+                                        <div class="store-page__right-info col-md-12 col-lg-3 no-border">
+                                            <div class="store-page__small-logo__wrapper fz0 lh0 dib mr5">
+                                                <img class="store-page__small-logo image-round" alt="" src="http://placehold.it/54x54">
+                                            </div>
+                                            <div class="store-page__shop-owner-wrapper dib text-left">
+                                                <div class="store-page__shop-owner fz15 ffh">JBL Official KZ</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-lg-9 product__shop-other-products no-pl text-right favorited-other-products__right-text">
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <a href="#" class="empty-button grey big">Смотреть избранное <span class="product__other-products-number">31</span> <i class="icon-more-btn right-direction"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row favorited__listing mb20">
+                                    <div class="col-xs-12 favorited__item mb15 active favorited__favorites-shop-item">
+                                        <a href="#" class="icon-cross__delete-item"></a>
+                                        <div class="store-page__right-info col-md-12 col-lg-3 no-border">
+                                            <div class="store-page__small-logo__wrapper fz0 lh0 dib mr5">
+                                                <img class="store-page__small-logo image-round" alt="" src="http://placehold.it/54x54">
+                                            </div>
+                                            <div class="store-page__shop-owner-wrapper dib text-left">
+                                                <div class="store-page__shop-owner fz15 ffh">JBL Official KZ</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-lg-9 product__shop-other-products no-pl text-right favorited-other-products__right-text">
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <a href="#" class="empty-button grey big">Смотреть избранное <span class="product__other-products-number">31</span> <i class="icon-more-btn right-direction"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row favorited__listing mb20">
+                                    <div class="col-xs-12 favorited__item mb15 active favorited__favorites-shop-item">
+                                        <a href="#" class="icon-cross__delete-item"></a>
+                                        <div class="store-page__right-info col-md-12 col-lg-3 no-border">
+                                            <div class="store-page__small-logo__wrapper fz0 lh0 dib mr5">
+                                                <img class="store-page__small-logo image-round" alt="" src="http://placehold.it/54x54">
+                                            </div>
+                                            <div class="store-page__shop-owner-wrapper dib text-left">
+                                                <div class="store-page__shop-owner fz15 ffh">JBL Official KZ</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-lg-9 product__shop-other-products no-pl text-right favorited-other-products__right-text">
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <a href="#" class="empty-button grey big">Смотреть избранное <span class="product__other-products-number">31</span> <i class="icon-more-btn right-direction"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row favorited__listing mb20">
+                                    <div class="col-xs-12 favorited__item mb15 active favorited__favorites-shop-item">
+                                        <a href="#" class="icon-cross__delete-item"></a>
+                                        <div class="store-page__right-info col-md-12 col-lg-3 no-border">
+                                            <div class="store-page__small-logo__wrapper fz0 lh0 dib mr5">
+                                                <img class="store-page__small-logo image-round" alt="" src="http://placehold.it/54x54">
+                                            </div>
+                                            <div class="store-page__shop-owner-wrapper dib text-left">
+                                                <div class="store-page__shop-owner fz15 ffh">JBL Official KZ</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-lg-9 product__shop-other-products no-pl text-right favorited-other-products__right-text">
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <a href="#" class="empty-button grey big">Смотреть избранное <span class="product__other-products-number">31</span> <i class="icon-more-btn right-direction"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row favorited__listing mb20">
+                                    <div class="col-xs-12 favorited__item mb15 active favorited__favorites-shop-item">
+                                        <a href="#" class="icon-cross__delete-item"></a>
+                                        <div class="store-page__right-info col-md-12 col-lg-3 no-border">
+                                            <div class="store-page__small-logo__wrapper fz0 lh0 dib mr5">
+                                                <img class="store-page__small-logo image-round" alt="" src="http://placehold.it/54x54">
+                                            </div>
+                                            <div class="store-page__shop-owner-wrapper dib text-left">
+                                                <div class="store-page__shop-owner fz15 ffh">JBL Official KZ</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-lg-9 product__shop-other-products no-pl text-right favorited-other-products__right-text">
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <a href="#" class="empty-button grey big">Смотреть избранное <span class="product__other-products-number">31</span> <i class="icon-more-btn right-direction"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row favorited__listing mb20">
+                                    <div class="col-xs-12 favorited__item mb15 active favorited__favorites-shop-item">
+                                        <a href="#" class="icon-cross__delete-item"></a>
+                                        <div class="store-page__right-info col-md-12 col-lg-3 no-border">
+                                            <div class="store-page__small-logo__wrapper fz0 lh0 dib mr5">
+                                                <img class="store-page__small-logo image-round" alt="" src="http://placehold.it/54x54">
+                                            </div>
+                                            <div class="store-page__shop-owner-wrapper dib text-left">
+                                                <div class="store-page__shop-owner fz15 ffh">JBL Official KZ</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-lg-9 product__shop-other-products no-pl text-right favorited-other-products__right-text">
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <a href="#" class="empty-button grey big">Смотреть избранное <span class="product__other-products-number">31</span> <i class="icon-more-btn right-direction"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row favorited__listing mb20">
+                                    <div class="col-xs-12 favorited__item mb15 active favorited__favorites-shop-item">
+                                        <a href="#" class="icon-cross__delete-item"></a>
+                                        <div class="store-page__right-info col-md-12 col-lg-3 no-border">
+                                            <div class="store-page__small-logo__wrapper fz0 lh0 dib mr5">
+                                                <img class="store-page__small-logo image-round" alt="" src="http://placehold.it/54x54">
+                                            </div>
+                                            <div class="store-page__shop-owner-wrapper dib text-left">
+                                                <div class="store-page__shop-owner fz15 ffh">JBL Official KZ</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-lg-9 product__shop-other-products no-pl text-right favorited-other-products__right-text">
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <a href="#" class="empty-button grey big">Смотреть избранное <span class="product__other-products-number">31</span> <i class="icon-more-btn right-direction"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row favorited__listing mb20">
+                                    <div class="col-xs-12 favorited__item mb15 active favorited__favorites-shop-item">
+                                        <a href="#" class="icon-cross__delete-item"></a>
+                                        <div class="store-page__right-info col-md-12 col-lg-3 no-border">
+                                            <div class="store-page__small-logo__wrapper fz0 lh0 dib mr5">
+                                                <img class="store-page__small-logo image-round" alt="" src="http://placehold.it/54x54">
+                                            </div>
+                                            <div class="store-page__shop-owner-wrapper dib text-left">
+                                                <div class="store-page__shop-owner fz15 ffh">JBL Official KZ</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-lg-9 product__shop-other-products no-pl text-right favorited-other-products__right-text">
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <div class="product__shop-other-products__image dib fz0 lh0">
+                                                <img alt="" src="http://placehold.it/70x60">
+                                            </div>
+                                            <a href="#" class="empty-button grey big">Смотреть избранное <span class="product__other-products-number">31</span> <i class="icon-more-btn right-direction"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- // END sides-container -->
+            </div>
+        </div>
+        <!-- // END store-page__product-container -->
+    </div>
+    <!-- // END store-page -->
+
+    <div class="similar-products-carousel">
+        <div class="container">
+            <div class="block-title">Похожие товары</div>
+            <div class="catalog-categories__carousel">
+                <div class="all-products-grid__item--new">
+                    <div class="all-products-grid__image-wrap posr ovh fz0 lh0">
+                        <img src="http://placehold.it/270x210" alt="" class="category-grid__image">
+                        <a href="#" class="grid__in-favorites ffm"><i class="icon-heart"></i> В избранное</a>
+                    </div>
+                    <div class="all-products-grid__info">
+                        <a href="#">
+                            <p class="all-products-grid__title">Lorem ipsum dolor.</p>
+                            <p class="all-products-grid__price ffh fz15">руб. 78 000</p>
+                            <p class="all-products-grid__shop">loremipsum</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="all-products-grid__item--new">
+                    <div class="all-products-grid__image-wrap posr ovh fz0 lh0">
+                        <img src="http://placehold.it/270x210" alt="" class="category-grid__image">
+                        <a href="#" class="grid__in-favorites ffm"><i class="icon-heart"></i> В избранное</a>
+                    </div>
+                    <div class="all-products-grid__info">
+                        <a href="#">
+                            <p class="all-products-grid__title">Lorem ipsum dolor.</p>
+                            <p class="all-products-grid__price ffh fz15">руб. 78 000</p>
+                            <p class="all-products-grid__shop">loremipsum</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="all-products-grid__item--new">
+                    <div class="all-products-grid__image-wrap posr ovh fz0 lh0">
+                        <img src="http://placehold.it/270x210" alt="" class="category-grid__image">
+                        <a href="#" class="grid__in-favorites ffm"><i class="icon-heart"></i> В избранное</a>
+                    </div>
+                    <div class="all-products-grid__info">
+                        <a href="#">
+                            <p class="all-products-grid__title">Lorem ipsum dolor.</p>
+                            <p class="all-products-grid__price ffh fz15">руб. 78 000</p>
+                            <p class="all-products-grid__shop">loremipsum</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="all-products-grid__item--new">
+                    <div class="all-products-grid__image-wrap posr ovh fz0 lh0">
+                        <img src="http://placehold.it/270x210" alt="" class="category-grid__image">
+                        <a href="#" class="grid__in-favorites ffm"><i class="icon-heart"></i> В избранное</a>
+                    </div>
+                    <div class="all-products-grid__info">
+                        <a href="#">
+                            <p class="all-products-grid__title">Lorem ipsum dolor.</p>
+                            <p class="all-products-grid__price ffh fz15">руб. 78 000</p>
+                            <p class="all-products-grid__shop">loremipsum</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="all-products-grid__item--new">
+                    <div class="all-products-grid__image-wrap posr ovh fz0 lh0">
+                        <img src="http://placehold.it/270x210" alt="" class="category-grid__image">
+                        <a href="#" class="grid__in-favorites ffm"><i class="icon-heart"></i> В избранное</a>
+                    </div>
+                    <div class="all-products-grid__info">
+                        <a href="#">
+                            <p class="all-products-grid__title">Lorem ipsum dolor.</p>
+                            <p class="all-products-grid__price ffh fz15">руб. 78 000</p>
+                            <p class="all-products-grid__shop">loremipsum</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="all-products-grid__item--new">
+                    <div class="all-products-grid__image-wrap posr ovh fz0 lh0">
+                        <img src="http://placehold.it/270x210" alt="" class="category-grid__image">
+                        <a href="#" class="grid__in-favorites ffm"><i class="icon-heart"></i> В избранное</a>
+                    </div>
+                    <div class="all-products-grid__info">
+                        <a href="#">
+                            <p class="all-products-grid__title">Lorem ipsum dolor.</p>
+                            <p class="all-products-grid__price ffh fz15">руб. 78 000</p>
+                            <p class="all-products-grid__shop">loremipsum</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="all-products-grid__item--new">
+                    <div class="all-products-grid__image-wrap posr ovh fz0 lh0">
+                        <img src="http://placehold.it/270x210" alt="" class="category-grid__image">
+                        <a href="#" class="grid__in-favorites ffm"><i class="icon-heart"></i> В избранное</a>
+                    </div>
+                    <div class="all-products-grid__info">
+                        <a href="#">
+                            <p class="all-products-grid__title">Lorem ipsum dolor.</p>
+                            <p class="all-products-grid__price ffh fz15">руб. 78 000</p>
+                            <p class="all-products-grid__shop">loremipsum</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container clearfix">
+            <ul class="footer-menu text-left left">
+                <li class="footer-menu__item"><a href="#" class="footer-menu__link">Открыть магазин</a></li>
+                <li class="footer-menu__item"><a href="#" class="footer-menu__link">Покупателям</a></li>
+                <li class="footer-menu__item"><a href="#" class="footer-menu__link">О компании</a></li>
+                <li class="footer-menu__item"><a href="#" class="footer-menu__link">Сотрудничество</a></li>
+                <li class="footer-menu__item"><a href="#" class="footer-menu__link">Подписался</a></li>
+            </ul>
+            <div class="footer-soc right">
+                <ul class="footer-soc__listing">
+                    <li class="footer-soc__item"><a href="#" class="footer-soc__link"><i class="icon-soc-vk"></i></a></li>
+                    <li class="footer-soc__item"><a href="#" class="footer-soc__link"><i class="icon-soc-fb"></i></a></li>
+                    <li class="footer-soc__item"><a href="#" class="footer-soc__link"><i class="icon-soc-insta"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<!-- // <script src="PP/PP.js"></script> -->
+<script src="js/custom.js"></script>
+
+
+
+<script>
+    $(document).ready(function(){
+        $('.catalog-categories__carousel').owlCarousel({
+            responsive: {
+                1100: {
+                    items: 4
+                },
+                1000 : {
+                    items: 3
+                },
+                768: {
+                    items: 2
+                },
+                0: {
+                    items: 1
+                }
+            },
+            margin: 15,
+            dots: false,
+            nav: true
+        })
+    })
+</script>
+</body>
+</html>
