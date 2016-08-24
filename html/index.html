@@ -16,9 +16,6 @@
 					<div class="top-line__inner posr">
 						<a href="#" class="logo"></a>
 						<div class="top-line__menu">
-							<div class="top-line__menu-icon hidden-md hidden-lg">
-								<i class="icon-hamburger"></i>
-							</div>
 							<ul class="top-line__menu-listing list-inline">
 								<li class="top-line__menu-item logo-text">HALVA</li>
 								<li class="top-line__menu-item"><a class="top-line__menu-link" href="#">Музыка</a></li>
@@ -26,17 +23,6 @@
 								<li class="top-line__menu-item"><a class="top-line__menu-link" href="#">Переводы</a></li>
 								<li class="top-line__menu-item"><a class="top-line__menu-link" href="#">DarBazar</a></li>
 								<li class="top-line__menu-item"><a class="top-line__menu-link" href="#">Займы</a></li>
-								<li class="top-line__menu-item hidden-lg hidden-md"><a class="top-line__menu-link" href="tel:+996 555 539796">+996 555 539796</a></li>
-								<li class="top-line__menu-item hidden-lg hidden-md"><a class="top-line__menu-link" href="#">Открыть магазин</a></li>
-								<li class="top-line__menu-item hidden-lg hidden-md"><a class="top-line__menu-link" href="#">Регистрация</a></li>
-								<li class="top-line__menu-item hidden-lg hidden-md"><a class="top-line__menu-link" href="#">Войти</a></li>
-								<li class="top-line__menu-item hidden-lg hidden-md"><a class="top-line__menu-link" href="#"><i class="icon-cart"></i> Корзина</a></li>
-								<li class="top-line__menu-item hidden-lg hidden-md has-search-form">
-									<form action="#" class="search-form db">
-										<input type="text" class="search-input" placeholder="Вы найдете это здесь">
-										<button class="red-button">Поиск</button>
-									</form>
-								</li>
 							</ul>
 						</div>
 					</div>
@@ -53,7 +39,7 @@
 							<a href="tel:+996 555 539796" class="header-phone purple-link bold dib">+996 555 539796</a>
 							<a href="#" class="purple-link bold dib header-open-shop">Открыть магазин</a>
 							<a href="#" class="purple-link header-subscribe dib">Подписка</a>
-							<a href="#" class="purple-link header-registration dib">Регистрация</a>
+							<a href="#" class="purple-link header-registration dib" data-call-popup="reg">Регистрация</a>
 							<a href="#" class="empty-button dib">Войти</a>
 							<a href="#" class="purple-link dib"><i class="icon-cart"></i> Корзина</a>
 						</div>
@@ -776,6 +762,26 @@
 				</div>
 			</div>
 		</footer>
+	</div>
+
+	<div class="overlay"></div>
+	<div class="popup" data-popup="reg">
+		<div class="block-title small">Регистрация</div>
+		<form action="#">
+			<div class="row clearfix mb10">
+				<div class="col-sm-6">
+					<p class="popup-field__title fz13 ffm mb5">Номер телефона</p>
+					<input type="text" class="popup-field__input">
+				</div>
+				<div class="col-sm-6">
+					<p class="popup-field__title fz13 ffm mb5">Почта</p>
+					<input type="email" class="popup-field__input">
+				</div>
+			</div>
+			<div class="popup-form__submit text-right">
+				<button class="yellow-button small">Дальше</button>
+			</div>
+		</form>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>

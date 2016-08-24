@@ -96,10 +96,7 @@ input.search-input
   padding: 3px
   display: inline-block
   vertical-align: middle
-  //margin-right: 20px
-  &.db
-    display: block
-
+// margin-right: 20px
 
 .sub-top-line__inner
   padding-left: 109px
@@ -585,6 +582,11 @@ section
   padding: 0 10px
   +trans
   border: none
+
+  &.small
+    line-height: 36px
+    font-size: 13px
+    padding: 0 15px
 
   &.db
     width: 100%
@@ -1883,54 +1885,23 @@ input.field-input
       +transform(rotate(-135deg))
       top: 2px
 
-.top-line__menu-icon
-  float: right
-  width: 36px
-  height: 36px
+.overlay
+  position: fixed
+  top: -10%
+  left: -10%
+  right: -10%
+  bottom: -10%
+  background: rgba(0,0,0,0.4)
+  z-index: 99
+
+.popup
+  position: fixed
+  top: 50%
+  +transform(translate3d(-50%, -50%, 0))
+  width: 600px
+  padding: 15px
+  left: 50%
+  max-width: 90%
   background: #fff
-  border-radius: 5px
-  position: relative
-  margin: 5px 0
-  cursor: pointer
-  z-index: 11
-
-  &.active
-    .icon-hamburger
-      background: transparent
-
-      &:after
-        +transform(rotate(-45deg))
-        bottom: 50%
-        margin-bottom: -1px
-
-      &:before
-        +transform(rotate(45deg))
-        top: 50%
-        margin-top: -2px
-
-.icon-hamburger
-  position: absolute
-  display: block
-  top: 50%
-  width: 80%
-  height: 3px
-  background: #7260ca
-  top: 50%
-  margin-top: -1px
-  left: 10%
-  +trans
-
-  &:after, &:before
-    display: block
-    +trans
-    content: ''
-    position: absolute
-    top: -10px
-    width: 100%
-    background: #7260ca
-    height: 3px
-    left: 0
-
-  &:after
-    top: auto
-    bottom: -10px
+  box-sizing: border-box
+  z-index: 100
