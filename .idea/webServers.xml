@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6fba870b-0fa8-4124-a476-9cea02e77f1c" name="hostland" url="http://ftp52.hostland.ru">
+        <fileTransfer host="ftp52.hostland.ru" port="21" username="host1344755">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
