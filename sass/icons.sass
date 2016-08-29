@@ -251,3 +251,32 @@
 
 	&:after
 		+transform(rotate(45deg))
+
+.icon-filter
+	display: inline-block
+	margin-right: 10px
+	vertical-align: middle
+	position: relative
+	height: 24px
+	width: 10px
+	top: -1px
+
+	&:before, &:after
+		display: block
+		content: ''
+		position: absolute
+		left: 50%
+		+transform(translateX(-50%))
+
+	&:before
+		border: 14px solid transparent
+		border-top: 14px solid #000
+		top: 0
+
+	&:after
+		width: 8px
+		height: 16px
+		background: #000
+		bottom: 0
+
+

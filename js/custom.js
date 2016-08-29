@@ -38,6 +38,11 @@ $(document).ready(function(){
 			$('.catalog-categories__listing').removeAttr('style');
 			$('.catalog-categories__title').removeClass('active');
 		}
+		if(!$('.mobile-filter-block').is(':visible')) {
+
+			$('.filter-section__left-side').removeAttr('style');
+		}
+
 	})
 
 	$(document).on('click', '.catalog-categories__title', function(e){
@@ -65,4 +70,8 @@ $(document).ready(function(){
 		$(this).toggleClass('active');
 		$('.top-line__menu-listing').toggleClass('active');
 	});
+
+	$(document).on('click', '.mobile-filter-block', function(){
+		$('.filter-section__left-side').slideToggle(500);
+	})
 });

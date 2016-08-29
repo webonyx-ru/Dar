@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'trans'.
-        on line 29 of D:/PhpStormProjects/Dar/html/sass/main.sass, in `trans'
-        from line 29 of D:/PhpStormProjects/Dar/html/sass/main.sass
+        on line 32 of D:/PhpStormProjects/Dar/sass/main.sass, in `trans'
+        from line 32 of D:/PhpStormProjects/Dar/sass/main.sass
 
-24:   height: 138px
-25:   position: absolute
-26:   left: 0
-27:   top: 0
-28:   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2)
-29:   +trans
-30: 
-31:   &:hover
-32:     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5)
+27:   height: 138px
+28:   position: absolute
+29:   left: 0
+30:   top: 0
+31:   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2)
+32:   +trans
 33: 
-34: .top-line__menu
+34:   &:hover
+35:     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5)
+36: 
+37: .top-line__menu
 
 Backtrace:
-D:/PhpStormProjects/Dar/html/sass/main.sass:29:in `trans'
-D:/PhpStormProjects/Dar/html/sass/main.sass:29
+D:/PhpStormProjects/Dar/sass/main.sass:32:in `trans'
+D:/PhpStormProjects/Dar/sass/main.sass:32
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/stack.rb:115:in `with_frame'
@@ -52,12 +52,13 @@ C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/base.r
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:157:in `visit'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:8:in `visit'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/root_node.rb:20:in `render'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/engine.rb:278:in `render'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/engine.rb:295:in `render_with_sourcemap'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:23:in `block in render_with_sourcemap'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:22:in `render_with_sourcemap'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `each'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
@@ -73,4 +74,4 @@ C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'trans'.\A         on line 29 of D:/PhpStormProjects/Dar/html/sass/main.sass, in `trans'\A         from line 29 of D:/PhpStormProjects/Dar/html/sass/main.sass\A \A 24:   height: 138px\A 25:   position: absolute\A 26:   left: 0\A 27:   top: 0\A 28:   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2)\A 29:   +trans\A 30: \A 31:   &:hover\A 32:     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5)\A 33: \A 34: .top-line__menu"; }
+  content: "Error: Undefined mixin 'trans'.\A         on line 32 of D:/PhpStormProjects/Dar/sass/main.sass, in `trans'\A         from line 32 of D:/PhpStormProjects/Dar/sass/main.sass\A \A 27:   height: 138px\A 28:   position: absolute\A 29:   left: 0\A 30:   top: 0\A 31:   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2)\A 32:   +trans\A 33: \A 34:   &:hover\A 35:     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5)\A 36: \A 37: .top-line__menu"; }

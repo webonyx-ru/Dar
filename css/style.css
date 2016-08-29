@@ -1053,6 +1053,38 @@ a.grey-text.tdn {
   -o-transform: rotate(45deg);
 }
 
+.icon-filter {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+  position: relative;
+  height: 24px;
+  width: 10px;
+  top: -1px;
+}
+.icon-filter:before, .icon-filter:after {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.icon-filter:before {
+  border: 14px solid transparent;
+  border-top: 14px solid #000;
+  top: 0;
+}
+.icon-filter:after {
+  width: 8px;
+  height: 16px;
+  background: #000;
+  bottom: 0;
+}
+
 body, input, button, textarea {
   font-family: SFUIDisplayRegular, sans-serif;
   font-size: 14px;
@@ -1061,6 +1093,10 @@ body, input, button, textarea {
 .container {
   max-width: 1170px;
   width: auto;
+}
+
+.main-wrapper {
+  min-width: 320px;
 }
 
 .top-line {
@@ -2399,6 +2435,11 @@ section:hover .block-title:after {
   width: 24px;
   height: 24px;
   border-radius: 50%;
+  transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
 }
 
 .colors-palette {
@@ -2531,7 +2572,7 @@ input[type="checkbox"]:checked + .checkbox-detector {
   vertical-align: middle;
   border: none;
   padding: 0;
-  margin: 0 5px;
+  margin: 0 5px 10px;
   font-size: 0;
   line-height: 0;
   transition: all 0.3s ease 0s;
@@ -3450,6 +3491,14 @@ input.field-input {
   z-index: 100;
 }
 
+.mobile-filter-block {
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked + .form-color-item {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+}
+
 @media screen and (max-width: 1300px) {
   .owl-prev, .owl-next {
     left: 20px;
@@ -3613,10 +3662,36 @@ input.field-input {
     text-align: center;
     float: none;
   }
+
+  .catalog-categories__listing {
+    padding: 0;
+  }
+
+  .catalog-categories__item {
+    padding: 0;
+  }
+
+  .catalog-categories__link {
+    display: block;
+    padding: 10px;
+  }
 }
 @media screen and (max-width: 767px) {
   .favorited-other-products__right-text {
     text-align: center;
+  }
+
+  .cart__item {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .cart__item-image__wrapper {
+    margin-bottom: 20px;
+  }
+
+  .cart__item-inner:before, .cart__item-inner:after {
+    display: none;
   }
 
   .sub-top-line__inner {
@@ -3650,11 +3725,17 @@ input.field-input {
   .product__shop-other-products__image {
     display: inline-block;
     vertical-align: middle;
-    margin: 5px;
+    margin: 10px 5px 10px;
+  }
+
+  .favorited-other-products__right-text .empty-button {
+    margin-top: 15px;
+    display: block;
   }
 
   .product__shop-other-products.no-pl {
     padding-left: 15px;
+    padding-right: 15px;
   }
 
   .left-side__wrapper {
@@ -3794,4 +3875,10 @@ input.field-input {
     left: 0;
     margin-left: -15px;
   }
+
+  .filter-section__left-side {
+    display: none;
+  }
 }
+
+/*# sourceMappingURL=style.css.map */

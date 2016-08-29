@@ -135,10 +135,31 @@
     text-align: center
     float: none
 
+  .catalog-categories__listing
+    padding: 0
+
+  .catalog-categories__item
+    padding: 0
+
+  .catalog-categories__link
+    display: block
+    padding: 10px
 
 @media screen and (max-width: 767px)
+
   .favorited-other-products__right-text
     text-align: center
+
+  .cart__item
+    margin-left: 0
+    margin-right: 0
+
+  .cart__item-image__wrapper
+    margin-bottom: 20px
+
+  .cart__item-inner
+    &:before, &:after
+      display: none
 
   .sub-top-line__inner
     padding-left: 80px
@@ -165,10 +186,16 @@
   .product__shop-other-products__image
     display: inline-block
     vertical-align: middle
-    margin: 5px
+    margin: 10px 5px 10px
+
+  .favorited-other-products__right-text
+    .empty-button
+      margin-top: 15px
+      display: block
 
   .product__shop-other-products.no-pl
     padding-left: 15px
+    padding-right: 15px
 
   .left-side__wrapper
     margin-right: -15px
@@ -279,3 +306,6 @@
     margin-top: -10px
     left: 0
     margin-left: -15px
+
+  .filter-section__left-side
+    display: none

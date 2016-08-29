@@ -6,6 +6,9 @@ body, input, button, textarea
   max-width: 1170px
   width: auto
 
+.main-wrapper
+  min-width: 320px
+
 .top-line
   background: #7260ca
   color: #fff
@@ -1099,6 +1102,7 @@ section
   width: 24px
   height: 24px
   border-radius: 50%
+  +trans
 
 .colors-palette
   padding: 0 10px
@@ -1197,7 +1201,7 @@ input[type="checkbox"]
     vertical-align: middle
     border: none
     padding: 0
-    margin: 0 5px
+    margin: 0 5px 10px
     font-size: 0
     line-height: 0
     +trans
@@ -1972,3 +1976,10 @@ input.field-input
   background: #fff
   box-sizing: border-box
   z-index: 100
+
+.mobile-filter-block
+  cursor: pointer
+
+input[type="checkbox"]
+  &:checked + .form-color-item
+    box-shadow: 0 0 5px rgba(0,0,0,0.9)
