@@ -74,4 +74,8 @@ $(document).ready(function(){
 	$(document).on('click', '.mobile-filter-block', function(){
 		$('.filter-section__left-side').slideToggle(500);
 	})
+
+	$(document).on('click', '.catalog-categories__item.has-submenu', function () {
+		$(this).toggleClass('active').find('.catalog-submenu__wrapper').slideToggle(300);
+	})
 });

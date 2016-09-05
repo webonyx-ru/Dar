@@ -1,23 +1,23 @@
 /*
-Error: Undefined mixin 'trans'.
-        on line 113 of D:/PhpStormProjects/Dar/sass/responsive.sass, in `trans'
-        from line 113 of D:/PhpStormProjects/Dar/sass/responsive.sass
+Error: Undefined mixin 'transform'.
+        on line 47 of D:/PhpStormProjects/Dar/sass/submenu.sass, in `transform'
+        from line 47 of D:/PhpStormProjects/Dar/sass/submenu.sass
 
-108:     width: 80%
-109:     right: 100%
-110:     height: 100%
-111:     overflow: auto
-112:     z-index: 10
-113:     +trans
-114:     background: #fff
-115:     color: #333
-116: 
-117:     &.active
-118:       right: 20%
+42:     width: 8px
+43:     height: 8px
+44:     border-right: 2px solid #333333
+45:     border-bottom: 2px solid #333333
+46:     top: 50%
+47:     +transform(translateY(-50%) rotate(-45deg))
+48:     right: 10px
+49:     opacity: 0.5
+50: 
+51:   &:hover
+52:     background: #e5e4e4
 
 Backtrace:
-D:/PhpStormProjects/Dar/sass/responsive.sass:113:in `trans'
-D:/PhpStormProjects/Dar/sass/responsive.sass:113
+D:/PhpStormProjects/Dar/sass/submenu.sass:47:in `transform'
+D:/PhpStormProjects/Dar/sass/submenu.sass:47
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/stack.rb:115:in `with_frame'
@@ -40,14 +40,11 @@ C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/stack.rb:79:in `bloc
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/stack.rb:115:in `with_frame'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/stack.rb:79:in `with_base'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:431:in `map'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:513:in `visit_media'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/stack.rb:79:in `block in with_base'
@@ -88,4 +85,4 @@ C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'trans'.\A         on line 113 of D:/PhpStormProjects/Dar/sass/responsive.sass, in `trans'\A         from line 113 of D:/PhpStormProjects/Dar/sass/responsive.sass\A \A 108:     width: 80%\A 109:     right: 100%\A 110:     height: 100%\A 111:     overflow: auto\A 112:     z-index: 10\A 113:     +trans\A 114:     background: #fff\A 115:     color: #333\A 116: \A 117:     &.active\A 118:       right: 20%"; }
+  content: "Error: Undefined mixin 'transform'.\A         on line 47 of D:/PhpStormProjects/Dar/sass/submenu.sass, in `transform'\A         from line 47 of D:/PhpStormProjects/Dar/sass/submenu.sass\A \A 42:     width: 8px\A 43:     height: 8px\A 44:     border-right: 2px solid #333333\A 45:     border-bottom: 2px solid #333333\A 46:     top: 50%\A 47:     +transform(translateY(-50%) rotate(-45deg))\A 48:     right: 10px\A 49:     opacity: 0.5\A 50: \A 51:   &:hover\A 52:     background: #e5e4e4"; }

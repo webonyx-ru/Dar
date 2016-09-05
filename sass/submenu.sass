@@ -1,0 +1,143 @@
+.catalog-submenu__right-col
+  padding: 0
+
+.catalog-submenu__wrapper
+  position: absolute
+  top: 100%
+  width: 100%
+  box-sizing: content-box
+  z-index: 10
+  background: #fff
+  text-align: left
+  padding: 0 15px
+  left: -15px
+  box-shadow: 0 5px 5px rgba(0,0,0,0.7)
+  display: none
+
+.catalog-submenu__left-col
+  padding: 0
+  position: static
+
+  &:after
+    display: block
+    content: ''
+    height: 100%
+    width: 1px
+    background: #e1e0e0
+    position: absolute
+    top: 0
+    left: 25%
+
+.catalog-submenu__main-link
+  padding: 6px 20px
+  line-height: normal
+  position: relative
+  display: block
+  color: #666666
+
+  &:after
+    display: block
+    content: ''
+    position: absolute
+    width: 8px
+    height: 8px
+    border-right: 2px solid #333333
+    border-bottom: 2px solid #333333
+    top: 50%
+    +transform(translateY(-50%) rotate(-45deg))
+    right: 10px
+    opacity: 0.5
+
+  &:hover
+    background: #e5e4e4
+
+  @media screen and (max-width: 991px)
+    padding-left: 15px
+    padding-right: 15px
+
+    &:after
+      right: 15px
+
+.catalog-submenu__all-products
+  .catalog-submenu__main-link
+    padding-top: 10px
+    padding-bottom: 10px
+    border-bottom: 1px solid #e1e0e0
+    color: #333
+
+    &:after
+      opacity: 1
+
+.catalog-submenu__image-wrapper
+  padding-top: 15px
+  padding-bottom: 15px
+  position: static
+
+  &:after
+    display: block
+    content: ''
+    position: absolute
+    top: 0
+    right: 25%
+    width: 1px
+    height: 100%
+    background: #e1e0e0
+
+.catalog-submenu__right-col
+  position: static
+
+.catalog-submenu__item
+  padding: 5px 0
+
+.catalog-submenu__link
+  @extend .ffm
+  @extend .fz14
+  padding: 5px 15px
+  display: inline-block
+
+.catalog-menu__subcatalog-link
+  text-decoration: none
+
+.catalog-menu__subcatalog
+  margin-left: 25px
+
+.catalog-submenu__col
+  padding: 5px 0
+
+.catalog-categories__item
+  &.has-submenu
+    @media screen and (min-width: 992px)
+      &:hover
+        .catalog-submenu__wrapper
+          display: block
+
+    @media screen and (max-width: 992px)
+      position: relative
+      text-align: left
+
+      .catalog-categories__link
+        padding-left: 15px
+        padding-right: 15px
+
+        &:after
+          display: block
+          content: ''
+          width: 8px
+          height: 8px
+          border-top: 2px solid #cccccc
+          border-right: 2px solid #cccccc
+          position: absolute
+          top: 50%
+          +transform(translateY(-50%) rotate(45deg))
+          right: 15px
+          +trans
+
+      &.active
+        .catalog-categories__link
+          &:after
+            +transform(translateY(-50%) rotate(135deg))
+
+  .catalog-categories__link
+    @media screen and (max-width: 991px)
+      text-align: left
+      position: relative

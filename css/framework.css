@@ -11,6 +11,10 @@
   display: block;
 }
 
+.w100 {
+  width: 100%;
+}
+
 .ttu {
   text-transform: uppercase;
 }
