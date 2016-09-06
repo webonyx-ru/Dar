@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'trans'.
-        on line 113 of D:/PhpStormProjects/Dar/sass/responsive.sass, in `trans'
-        from line 113 of D:/PhpStormProjects/Dar/sass/responsive.sass
+        on line 96 of D:/PhpStormProjects/Dar/sass/responsive.sass, in `trans'
+        from line 96 of D:/PhpStormProjects/Dar/sass/responsive.sass
 
-108:     width: 80%
-109:     right: 100%
-110:     height: 100%
-111:     overflow: auto
-112:     z-index: 10
-113:     +trans
-114:     background: #fff
-115:     color: #333
-116: 
-117:     &.active
-118:       right: 20%
+91:     width: 80%
+92:     right: 100%
+93:     height: 100%
+94:     overflow: auto
+95:     z-index: 10
+96:     +trans
+97:     background: #fff
+98:     color: #333
+99: 
+100:     &.active
+101:       right: 20%
 
 Backtrace:
-D:/PhpStormProjects/Dar/sass/responsive.sass:113:in `trans'
-D:/PhpStormProjects/Dar/sass/responsive.sass:113
+D:/PhpStormProjects/Dar/sass/responsive.sass:96:in `trans'
+D:/PhpStormProjects/Dar/sass/responsive.sass:96
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/lib/sass/stack.rb:115:in `with_frame'
@@ -88,4 +88,4 @@ C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.19/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'trans'.\A         on line 113 of D:/PhpStormProjects/Dar/sass/responsive.sass, in `trans'\A         from line 113 of D:/PhpStormProjects/Dar/sass/responsive.sass\A \A 108:     width: 80%\A 109:     right: 100%\A 110:     height: 100%\A 111:     overflow: auto\A 112:     z-index: 10\A 113:     +trans\A 114:     background: #fff\A 115:     color: #333\A 116: \A 117:     &.active\A 118:       right: 20%"; }
+  content: "Error: Undefined mixin 'trans'.\A         on line 96 of D:/PhpStormProjects/Dar/sass/responsive.sass, in `trans'\A         from line 96 of D:/PhpStormProjects/Dar/sass/responsive.sass\A \A 91:     width: 80%\A 92:     right: 100%\A 93:     height: 100%\A 94:     overflow: auto\A 95:     z-index: 10\A 96:     +trans\A 97:     background: #fff\A 98:     color: #333\A 99: \A 100:     &.active\A 101:       right: 20%"; }

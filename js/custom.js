@@ -37,13 +37,14 @@ $(document).ready(function(){
 		if(!$('.catalog-categories__title').is(':visible')) {
 			$('.catalog-categories__listing').removeAttr('style');
 			$('.catalog-categories__title').removeClass('active');
+			$('.catalog-submenu__wrapper').removeAttr('style').removeClass('active');
 		}
 		if(!$('.mobile-filter-block').is(':visible')) {
 
 			$('.filter-section__left-side').removeAttr('style');
 		}
 
-	})
+	});
 
 	$(document).on('click', '.catalog-categories__title', function(e){
 		if($(this).hasClass('active')) {
@@ -53,18 +54,18 @@ $(document).ready(function(){
 			$(this).addClass('active');
 			$(this).siblings('.catalog-categories__listing').slideDown(200);
 		}
-	})
+	});
 
 	$(document).on('click', '.overlay', function(e){
 		$('.overlay').fadeOut(300);
 		$('.popup').fadeOut(300);
-	})
+	});
 
 	$(document).on('click', '[data-call-popup]', function(e){
 		var pop = $('[data-popup="'+$(this).attr('data-call-popup')+'"]');
 		$('.overlay').fadeIn(300);
 		pop.fadeIn(300);
-	})
+	});
 
 	$(document).on('click', '.top-line__menu-icon', function(e){
 		$(this).toggleClass('active');
@@ -73,9 +74,28 @@ $(document).ready(function(){
 
 	$(document).on('click', '.mobile-filter-block', function(){
 		$('.filter-section__left-side').slideToggle(500);
-	})
+	});
 
-	$(document).on('click', '.catalog-categories__item.has-submenu', function () {
-		$(this).toggleClass('active').find('.catalog-submenu__wrapper').slideToggle(300);
-	})
+	$(document).on('click', '.catalog-categories__item.has-submenu a.catalog-categories__link', function () {
+		if($('.catalog-categories__title').is(':visible'))
+			$(this).closest('.catalog-categories__item').toggleClass('active').find('.catalog-submenu__wrapper').slideToggle(300);
+	});
+
+
+	$(document).on('click', '[data-call-thirdmenu]', function(){
+		if(!$('.catalog-categories__title').is(':visible'))
+			return;
+
+		bl = $('[data-thirdmenu="'+$(this).attr('data-call-thirdmenu')+'"]');
+		bl.siblings().hide().end().show();
+	});
+
+	$(document).on('mouseover', '[data-call-thirdmenu]', function(){
+		if($('.catalog-categories__title').is(':visible')) {
+			return;
+		}
+
+		bl = $('[data-thirdmenu="'+$(this).attr('data-call-thirdmenu')+'"]');
+		bl.siblings().hide().end().show();
+	});
 });
